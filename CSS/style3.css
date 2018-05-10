@@ -1,0 +1,9 @@
+.a{color:red;
+    text-align:left;
+}
+
+.b{font-size: 30px;
+}
+
+.a.b{background-color:green;
+}
