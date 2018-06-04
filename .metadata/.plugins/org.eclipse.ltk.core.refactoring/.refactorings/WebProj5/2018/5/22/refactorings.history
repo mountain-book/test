@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;web.xml&apos; を &apos;WEB-INF&apos; に移動" description="&apos;web.xml&apos; を &apos;WEB-INF&apos; に移動" destination="WebContent/WEB-INF" element1="/コピー - Iphone/web.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1527480428549" updateReferences="true"/>
+</session>

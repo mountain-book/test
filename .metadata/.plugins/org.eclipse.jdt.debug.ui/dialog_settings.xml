@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Person2/src&amp;lt;{Person.java[Person&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Capsule/src&amp;lt;{Capsule.java[Capsule&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Android/src&amp;lt;{Android.java[Android&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=コピー - Iphone/src&amp;lt;{Iphone.java[Iphone&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Person/src&amp;lt;{Person.java[Person&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Person/src&amp;lt;{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Person2/src&amp;lt;{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=TestDB/src&amp;lt;{CheckLoadJDBC.java[CheckLoadJDBC&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Iphone/src&amp;lt;{Iphone.java[Iphone&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=HelloServlet/C:\/Users\/internousdev\/Desktop\/workspace\/workspace-yamamoto\/test\/HelloServlet\/WebContent\/WEB-INF\/lib\/mysql-connector-java-5.1.46-bin.jar&amp;lt;com.mysql.jdbc.util(VersionFSHierarchyMaker.class[VersionFSHierarchyMaker&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="100" key="DIALOG_X_ORIGIN"/>
+			<item value="97" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>
