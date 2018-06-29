@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
@@ -19,7 +19,7 @@ body{
 	padding: 0;
 	line-height: 1.6;
 	letter-spacing: 1px;
-	font-family: Verdana, Helvenica, sans-serif;
+	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #333;
 	background: #fff;
@@ -78,6 +78,10 @@ table{
 					<a href='<s:url action="UserCreateAction"/>'>こちら</a>
 				</span>
 			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="pr">
 		</div>
 	</div>
 </body>

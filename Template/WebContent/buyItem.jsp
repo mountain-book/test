@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
-<meta name="description" content="no"/>
+<meta name="description" content=""/>
 <meta name="keywords" content=""/>
 <title>buyItem画面</title>
 
@@ -22,11 +22,11 @@ body{
 	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #333;
-	background:#ff;
+	background:#fff;
 }
 
 table{
-	text-aligin: center;
+	text-align: center;
 	margin: 0 auto;
 }
 /* ========ID LAYOUT======== */

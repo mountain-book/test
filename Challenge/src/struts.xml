@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache SoftWare Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- 非開発者モード(デバックじゃない時はコメントを外してください) -->
+	<!--  <constant name="struts.ui.theme" value="simple"/> -->
+	<constant name="struts.devMode" value="true"/>
+	<package name="com.internousdev.challenge.action" extends="struts-default">
+
+
+
+	<action name="GoLoginAction" class="com.internousdev.challenge.action.GoLoginAction" method="execute">
+	<result name="success">login.jsp</result>
+	</action>
+
+	<action name="GoLogoutAction" class="com.internousdev.challenge.action.GoLogoutAction" method="execute">
+	<result name="success">index.jsp</result>
+	</action>
+
+	<action name="GoProductListAction" class="com.internousdev.challenge.action.GoProductListAction" method="execute">
+	<result name="success">productList.jsp</result>
+	</action>
+
+	<action name="GoResetEmailAction" class="com.internousdev.challenge.action.GoResetEmailAction" method="execute">
+	<result name="success">resetEmail.jsp</result>
+	</action>
+
+	<action name="GoResetPasswordAction" class="com.internousdev.challenge.action.GoResetPasswordAction" method="execute">
+	<result name="success">resetPassword.jsp</result>
+	</action>
+
+	<action name="GoUserCreateAction" class="com.internousdev.challenge.action.GoUserCreateAction" method="execute">
+	<result name="success">userCreate.jsp</result>
+	</action>
+
+	<action name="GoMyPageAction" class="com.internousdev.challenge.action.GoMyPageAction" method="execute">
+	<result name="success">myPage.jsp</result>
+	</action>
+
+	<action name="HomeAction" class="com.internousdev.challenge.action.HomeAction" method="execute">
+	<result name="success">home.jsp</result>
+	</action>
+
+	<action name="LoginAction" class="com.internousdev.challenge.action.LoginAction" method="execute">
+	<result name="success">index.jsp</result>
+	<result name="error">login.jsp</result>
+	</action>
+
+	<action name="ProductDetailsAction" class="com.internousdev.challenge.action.ProductDetailsAction" method="execute">
+	<result name="success">productDetails.jsp</result>
+	<result name="error">productList.jsp</result>
+	</action>
+
+	<action name="PurchaseHistoryAction" class="com.internousdev.challenge.action.PurchaseHistoryAction" method="execute">
+	<result name="success">purchaseHistory.jsp</result>
+	</action>
+
+	<action name="ResetEmailAction" class="com.internousdev.challenge.action.ResetEmailAction" method="execute">
+	<result name="success">resetEmailComplete.jsp</result>
+	<result name="error">resetEmail.jsp</result>
+	</action>
+
+	<action name="ResetPasswordAction" class="com.internousdev.challenge.action.ResetPasswordAction" method="execute">
+	<result name="success">resetPasswordComplete.jsp</result>
+	<result name="error">resetPassword.jsp</result>
+	</action>
+
+	<action name="SearchItemAction" class="com.internousdev.challenge.action.SearchItemAction" method="execute">
+	<result name="success">productList.jsp</result>
+	</action>
+
+	<action name="UserCreateAction" class="com.internousdev.challenge.action.UserCreateAction" method="execute">
+	<result name="success">userCreateConfirm.jsp</result>
+	<result name="error">userCreate.jsp</result>
+	</action>
+
+	<action name="UserCreateConfirmAction" class="com.internousdev.challenge.action.UserCreateConfirmAction" method="execute">
+	<result name="success">userCreateComplete.jsp</result>
+	</action>
+
+
+
+
+
+	</package>
+</struts>

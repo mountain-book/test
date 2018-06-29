@@ -9,5 +9,6 @@ quickdiff.defaultProvider=org.eclipse.egit.ui.internal.decorators.GitQuickDiffPr
 showEnclosedSpaces=false
 showLeadingSpaces=false
 showTrailingSpaces=false
+showWhitespaceCharacters=true
 spellingEnabled=false
 writeOccurrenceIndicationColor=0,255,64

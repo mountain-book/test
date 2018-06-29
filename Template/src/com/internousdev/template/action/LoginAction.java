@@ -17,8 +17,6 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	private Map<String,Object> session;
 
 	public String execute(){
-		System.out.println(loginUserId);
-		System.out.println(loginPassword);
 		LoginDAO loginDAO = new LoginDAO();
 		LoginDTO loginDTO = new LoginDTO();
 		BuyItemDAO buyItemDAO = new BuyItemDAO();
@@ -44,7 +42,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	public String getLoginUserId(){
 		return loginUserId;
 	}
-	public void setLoginUserid(String loginUserId){
+	public void setLoginUserId(String loginUserId){
 		this.loginUserId=loginUserId;
 	}
 

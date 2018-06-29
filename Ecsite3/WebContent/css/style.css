@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body, html{
+	margin: 0;	/*余白の削除*/
+	padding: 0;	/*余白の削除*/
+	width: 100%;
+	height: 100%;
+}
+
+#header{
+	position: fixed;
+	float: left;
+	width: 100%;
+	height: 60px;
+	padding: 10px;
+	background-color: #005392;
+}
+
+#header-menu{
+	float: left;
+	width: 80%;
+	margin-left: -30px;
+}
+
+#header-menu ul{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	width: 100%;
+}
+
+#header-menu ul li{
+	float: left;
+	list-style: none;
+	padding-left: 1%;
+	color: white;
+	font-size: 12px;
+}
+
+#header-title{
+	float: left;
+	height: 30px;
+	margin-top: 17px;
+	margin-left: 25px;
+	width: 10%;
+	font-family: 'Vidaloka', serif;
+	color: #ffffff;
+	font-size: 17px;
+}
+
+.submit_btn_box{
+	width: 45%;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 3%;
+	padding-left: 42%;
+	float: left;
+}
+
+.submit_btn{
+	padding: 0.5em 1em;
+	text-decoration: none;
+	border-radius: 100px;
+	width: 100px;
+	height: 35px;
+	margin-top: -5px;
+	margin-left: 6px;
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 2px 2px #1a6ea0; /* 横 縦 ぼかし 広がり 色 */
+	background: #4b7ea1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );
+				/* グラデーション	　定型文	　開始位置	終了位置		　開始色			終了色 */
+	background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1);
+				/* グラデーション		　方向	　開始色	　終了色 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb',endColorstr='#4477a1');
+}
+
+.submit_btn:hover{
+	color: #fff;
+	background-color: #49a9d4;
+	box-shadow: 2px 2px #1a6ea0;
+	cursor: pointer;
+	opacity: 0.5;
+	background: #81a8cb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4477a1), to(#81a8cb));
+	background: -moz-linear-gradient(-90deg, #4477a1, #81a8cb);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1',endColorstr='#81a8cb');
+}
+
+.submit_btn:active{
+	background: #4477a1;
+}
+
+.txt-keywords{
+	width: 95%;
+	height: 20px;
+	padding-left: 5%;
+	box-shadow: 0 0 7px #3498db;
+	border: 1px solid #3498db;
+	border-radius: 100px;
+}
+
+.txt-keywords:focus{
+	border: 1px solid #ff9900;
+	color: #011892;
+	outline: 0;
+}
+
+#contents{
+	padding-top: 70px;
+	margin-top: 50px;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	margin-bottom: 100px;
+	overflow: auto;	/* コンテンツの表示を自動に設定(スクロール) */
+}
+
+.contents-btn-set{
+	margin: 3%;
+	display: inline-block;
+	float: left;
+}
+
+h1{
+	width: 90%;
+	color: #364e96;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 0.5em 0;
+	border-top: solid 3px #364e96;
+	border-bottom: solid 3px #364e96;
+}
+
+table.vertical-list-table{
+	width: 90%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+table.vertical-list-table th{
+	width: 25%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: #005392;
+	color: #ffffff;
+}
+
+table.vertical-list-table td{
+	width: 75%;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+table.vertical-list-table, th, td{
+	margin: 3%;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	line-height: 1.5;
+}
+#footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	clear: both;
+	left: 0;
+	z-index: 10; /* ボックスの重なり順序 */
+	width: 100%;
+	padding: 10px;
+	color: #ffffff;
+	background-color: #005392;
+}
+
+.txt{
+	width: 99%;
+	height: 30px;
+	border: 0.5px solid #999;
+	font-size: 24px;
+}
+
+.txt:focus{
+	border: 1px solid #ff9900;
+	outline: 0;
+}
+.info, .success, .warning, .error, .validation{
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.error{
+	font-size: 0.8em;
+	margin-left: 3%;
+	width: 84%;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+.error-message{
+	color: red;
+}

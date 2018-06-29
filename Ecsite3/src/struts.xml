@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache SoftWare Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.ui.theme" value="simple"/>
+	<!-- 開発者モード(デバックしたい時にはコメント外してください。ユーザーのエラーページが無効にできます) -->
+	<!-- <constant name="struts.devMode" value="true"/> -->
+	<constant name="struts.devMode" value="true"/>
+	<package name="com.internousdev.sampleweb.action" extends="struts-default">
+
+	<action name="GoLoginAction" class="com.internousdev.ecsite5.action.GoLoginAction" method="execute">
+	<result name="success">login.jsp</result>
+	</action>
+
+	<action name="HomeAction" class="com.internousdev.ecsite3.action.HomeAction" method="execute">
+	<result name="success">home.jsp</result>
+	</action>
+
+	</package>
+	</struts>

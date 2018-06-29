@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	position: relative;
+	height: auto;
+	min-height: 100%;
+}
+
+table{
+	margin: 0 auto;
+}
+
+#header{
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	color: white;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#header h1{
+	float: left;
+	font-family: 'Vidaloka', serif;
+	text-align:center;
+	font-weight:normal;
+	margin: 20px 40px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#header h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+#mainLogo{
+	display:block;
+	font-size:25px;
+	line-height: 25px;
+}
+
+#descriptionLogo{
+	display:block;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+#header-menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#header-menu ul li a{
+    font-family: "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#header-menu ul li a:hover{
+    border-bottom: dotted 1px #fff;
+}
+
+#main{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+#contents{
+	font-size: 10px;
+	display: inline-block;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#LoginForm{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#LoginForm table label {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#LoginForm table input{
+	display: block;
+	float: left;
+	text-align: left;
+	margin-right: 10px;
+}
+
+#LoginForm table input[type="radio"]{
+	display: none;
+}
+
+#LoginForm table input[type="radio"]:checked + label{
+	background: #31A9EE;
+	color: #ffffff;
+}
+
+#LoginForm table label{
+	display: block;
+	float: left;
+	margin-right: 40px;
+	width: 100px;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: gray;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+#LoginForm table label:hover{
+	background-color: #E2EDF9;
+}
+
+#LoginForm table #submit_btn{
+	position: relative;
+	left: 370px;
+}
+
+#LoginForm table #login_btn{
+	position: relative;
+	left: 200px;
+}
+
+#LoginForm table #confirm_btn{
+	position: relative;
+	left: 100px;
+}
+
+#reset_btn{
+	text-align: center;
+}
+
+.mypageList{
+	height: 200px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.mypageList tr{
+	border: 1px solid black;
+}
+
+.mypageList th{
+	border: 1px solid black;
+	width: 150px;
+}
+
+.mypageList td{
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 1px solid black;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+}

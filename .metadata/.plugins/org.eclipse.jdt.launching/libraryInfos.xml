@@ -13,7 +13,7 @@
 </bootpath>
 <extensionDirs>
 <entry path="C:\pleiades\java\6\jre\lib\ext"/>
-<entry path="C:\Windows\Sun\Java\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\pleiades\java\6\jre\lib\endorsed"/>
@@ -32,13 +32,13 @@
 </bootpath>
 <extensionDirs>
 <entry path="C:\pleiades\java\7\jre\lib\ext"/>
-<entry path="C:\Windows\Sun\Java\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\pleiades\java\7\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="C:\pleiades\java\8" version="1.8.0_74">
+<libraryInfo home="C:\pleiades\java\8" version="1.8.0_152">
 <bootpath>
 <entry path="C:\pleiades\java\8\jre\lib\resources.jar"/>
 <entry path="C:\pleiades\java\8\jre\lib\rt.jar"/>
@@ -51,7 +51,7 @@
 </bootpath>
 <extensionDirs>
 <entry path="C:\pleiades\java\8\jre\lib\ext"/>
-<entry path="C:\Windows\Sun\Java\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\pleiades\java\8\jre\lib\endorsed"/>
